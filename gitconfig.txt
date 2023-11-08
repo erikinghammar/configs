@@ -1,0 +1,10 @@
+[user]
+    name =  "insert name"
+    email = "insert email here"
+
+[alias]
+    l = log --graph --oneline --all --color --decorate   # to see all branches in the current repo
+    li = log --graph --oneline --color --decorate        # to see only the current branch
+
+[color]
+    ui=auto
