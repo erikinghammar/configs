@@ -1,14 +1,18 @@
 "enable line number
 set number
 
+" Colorschemes
+colo darkblue
+" set background=dark
+
 "enable syntax highighting
 syntax enable
 
 " enable auto-indendation
 set autoindent
 set smartindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=8
+set shiftwidth=8
 set expandtab
 
 " show line and column in the status line
@@ -34,10 +38,6 @@ set colorcolumn=72
 
 "show final 
 set list
-
-" Colorschemes
-color desert
-set background=dark
 
 " Configure backspace so it acts as it should act
 set backspace=eol,start,indent
